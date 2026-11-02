@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hola este es el sitio web de viti on My New Hugo Site</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Hola este es el sitio web de viti on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 02 Nov 2026 12:30:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dominando Git y Markdown en Hugo</title>
+      <link>http://localhost:1313/posts/aprendiendo-hugo/</link>
+      <pubDate>Mon, 02 Nov 2026 12:30:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/aprendiendo-hugo/</guid>
+      <description>&lt;p&gt;Después de configurar correctamente mi identidad de Git en la terminal para poder hacer commits, he logrado versionar mi proyecto. Ahora me estoy centrando en estructurar el contenido usando Markdown y comprender cómo el motor de plantillas de Hugo enlaza todo para generar el sitio final.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bienvenidos al blog de Hugo</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Mon, 02 Nov 2026 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>&lt;p&gt;¡Hola! Soy Víctor y este es mi primer artículo. Estoy configurando mi entorno en mi máquina virtual y probando cómo Hugo compila páginas web estáticas a la velocidad del rayo. Esta es una excelente oportunidad para seguir profundizando en el despliegue de aplicaciones web.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Página de contacto</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;Puedes ponerte en contacto conmigo enviando un correo a **&lt;em&gt;&lt;a href=&#34;mailto:victorverjanozaragoza@gmail.com&#34;&gt;victorverjanozaragoza@gmail.com&lt;/a&gt;&lt;/em&gt; o a través de mi perfil de GitHub: (&lt;a href=&#34;https://github.com/victorverjanozaragoza-ops)&#34;&gt;https://github.com/victorverjanozaragoza-ops)&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+    <main>
+        <h1>Posts del Blog</h1>
+        <ul>
+        {{ range .RegularPages }}
+            <li>
+                {{ if .Date }}{{ .Date | time.Format ":date_long" }}{{ end }}
+                <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                <p>{{ .Summary | plainify }}... <a href="{{ .RelPermalink }}">Leer más</a></p>
+            </li>
+        {{ end }}
+        </ul>
+    </main>
+{{ partial "footer.html" . }}
